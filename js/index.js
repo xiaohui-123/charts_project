@@ -198,6 +198,12 @@
   window.addEventListener("resize", function () {
     myChart.resize();
   });
+  // 第二种写法：
+  // window.onresize = function(){
+  //   myChart.resize()
+  // }
+  // 第三种写法：
+  // window.onresize = myChart.resize
 })();
 
 //折线图模块

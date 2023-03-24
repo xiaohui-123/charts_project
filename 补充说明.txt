@@ -1,0 +1,14 @@
+1、     window.addEventListener("resize", function () {
+            myChart.resize();
+        });
+   第二种写法：
+        window.onresize = function(){
+            myChart.resize()
+        }
+   第三种写法：
+        window.onresize = myChart.resize
+
+2、图表加载动画的实现
+echarts内置组件 echarts.showLoading /hideLo ading
+
+
